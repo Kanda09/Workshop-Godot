@@ -46,21 +46,19 @@ Godot Game Engine works with 2 main components **scenes** and **nodes**.
 
 Understanding this game engine architecture is the key to the development of amazing games in Godot. We **encourage** you to look at the documentation about that: [nodes and scenes](https://docs.godotengine.org/en/stable/getting_started/step_by_step/nodes_and_scenes.html).
 
-### Create your first scene !
+### Create Player scene
 
-Try creating you first scene and name it `player.tscn`, this scene should contains a `Node2D` as the root node. 
+We will create our first scene there, when you save a scene name it `player.tscn` !
 
-All the player's subnode will inherit of this node.
-
-### Create Player nodes
-
-As we said before we need a few nodes for the player to handle 2D physics or collisions.
+Also, as we said before we need a few nodes for the player to handle 2D physics or collisions.
 
 #### Player base node
 
 First, create a new player node for the player, to do so we suggest you to take a look at `CharacterBody2D`, it has everything you want :3.
 
-Name this base node, `Player` (It will be simpler to handle it).
+Name this node, `Player` (It will be simpler to handle it).
+
+The node `Player` is named *root node*, every node that you want for the player **must** be a child/sub-child of this node
 
 Create a child node to the node `Player` and choose a collision node (we let you figure it out which one :D), and choose a Rectangle Shape for this node.
 
@@ -150,9 +148,63 @@ Isn't it better now ?
 
 ## Enemies
 
+Our little player is lonely, I wish we could bring him some friends....
+
+**HEY**
+
+### Create new enemies
+
+As we did for the player, we let you create a new scene, a new root node (preferably a `CharacterBody2D`) and 2 subnodes, for collision and for sprite.
+
+For this workshop, the enemies will be moved by a script (mostly) you are going to make, but if you want a special enemy movements (like an enemy failing from sky), you can try using a `RigidBody2D`. If you don't know what it is feel free to take a look at the documentation: [godot-physics-introduction](https://docs.godotengine.org/en/4.1/tutorials/physics/physics_introduction.html).
+
+### Implementing the collisions
+
+You remember the `Area2D` created for the player we created before ?
+
+It is going to be **useful**.
+
+Let's talk about signals.
+
+In Godot signals are way to informs/execute specific nodes/scripts when an event occured. For example, the player got hit by a bullet, **BOOOM** Signal.
+
+And here when a collision is occuring we want a script to be triggered, that will handle the consequences of it.
+
+What you need to do is:
+
+* Handle the event of `Area2D`
+* Trigger a new `hit` event
+* Handle `hit` in the main game scene (just put a single printing to indicate that a collision appeared)
+
+__NOTE__: Careful you can implement a signal handler in the node that emits the signal **and** also in parents nodes.
+
+### Ending the game
+
+Now implement the fact that if a collision appears, the scene reload completely itself.
+
+Don't worry it is not that hard !
+
+Isn't it ?
+
 ## Bonus
 
-=> Custom End of game
-=> New enemies
-=> The floor is lava
+Hey, it is the end, did you like everything you've learned ? I hope so !
 
+But don't worry, there is still a loooooot to do !
+
+Video games are fun and so, enjoy yourself creating everything you ever wanted, these are examples of what you could do:
+
+* Custom End of game
+* New enemies (Failing enemies, Static enemies, etc)
+* Projectiles
+* Using TileSets for background
+
+All your dreams can become true !
+
+## Contributors
+
+Thanks to these 2 people:
+
+Rahul Chander: rahul.chander@epitech.eu
+
+Tiphaine Bertone: tiphaine.bertone@epitech.eu
