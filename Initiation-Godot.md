@@ -144,7 +144,44 @@ Like:
 
 Isn't it better now ?
 
-## Floor
+## Create a Level Map
+
+### Scene MainGame
+Okay now we want a real game ! (and test you player movement)
+
+Let's start why the creation of the "MainGame" scene!
+I'ts where you collect all the scenes (player, plateform, ennemies)
+
+You have to do :
+- Creation of the "MainGame" scene
+- Add "Player" scene in the "MainGame" scene
+- Add a Camera that follow the player
+- Make the "MainGame" as the main scene
+- Try to play
+
+***_TIPS_***
+
+*You can see what is a Child Scene in Godot.*
+
+*Godot is simple! A child undergoes the same physics changes as his parents*
+
+I think you see your player fall...
+Maybe we need a floor.
+
+### Create a Floor
+
+We need a floor where the player can walk.
+Try to create a simple platform.
+You can use 2 methods (or a mix)
+
+![Platform Screen](img/godot-platform.png)
+![Platform TileMap](img/godot-tile-map.png)
+
+***_TIPS_***
+
+*What's is StaticBody2D ? Did you need collision again ?*
+
+*What's is TileMap ?*
 
 ## Enemies
 
