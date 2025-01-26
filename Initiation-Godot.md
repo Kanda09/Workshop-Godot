@@ -14,18 +14,50 @@ If you have issue at install feel free to contact us !
 
 ## Create a new project
 
-..... => Create a new project
+Create a new Godot project in the path you want.
 
-## Create a new node player
+## Create a Player !
 
-..... ==> 
+We will here try to create 3 nodes, representing the player, the player's root node, the collision node and the sprite node.
+
+Then we will assign to this new player we had scripts to make him move and have a beautiful life :3.
+
+### Godot is pretty :blush:
+
+**APPRECIATE HOW PRETTY IS GODOT !**
+
+![Image](./godot-new-project.png)
+
+Oh...
+
+You're not conviced ?
+Let's see what godot is capable of !
+
+### First Godot Scene
+
+Explain godot scene/nodes with the documentation
+
+### Create Player nodes
+
+Create a new player node for the player, we suggest you to take a look at `CharacterBodyNode2D`.
+
+It has everything you need to perform 2D interaction, gravity or even collisions !
+
+=> Creation of the 3 nodes
+=> Have sprites
+
+### Player Script
+
+==> How to create a script
 
 Enjoy the 2D and 3D view !
 
-## Sprite Movements
+#### Sprite Movements
 
 
-## Sprite Animation
+#### Sprite Animation
+
+
 
 ## Floor
 
