@@ -57,7 +57,7 @@ Actually when you want to create a new enemy you have to instanciate a new child
 
 **HOWEVER** Godot gives us a wonderful way to be more generic, by its configuration files !
 
-Your task, if you accept it is to take any of the node that you have to instanciate manually and create a script that read a configuration file and initialize them for you !
+Your task, if you accept it, is to take any of the node that you have to instanciate manually and create a script that read a configuration file and initialize them for you !
 
 > **HINT**: Reading the documentation *might* be a good idea :D
 
@@ -67,8 +67,41 @@ At the end you should be able to do something like this:
 
 ![Everybody has enemies](./img/everybody-has-enemies.png)
 
-
 ## Publish Game (Itch.io)
+
+Congrats kid, you've done it !
+
+It was a wonderful journey, full of people that you lost, that you met and people who loved you.
+
+**You are inspiring !**
+
+**So show the world what you are capable of !**
+
+### Export your project
+
+The first thing to show the world what you are capable of, is to give a way for people to download it !
+
+Try to export your Godot Game in the format you want, Windows Executable, Linux Binary or even Web Game !
+
+### Join the Game Dev World
+
+[Itch.io](https://itch.io) is a platform where people publish their games, their assets (even the one we are using :3) and organise Game Jam or other game development good stuff !
+
+All the work you've done ! **SHOW IT TO THE WORLD**
+
+Join us.
+
+> Create a [Itch.io](https://itch.io) project and load the game executable or web page you've created !
+
+## Conclusion
+
+*Do not cry because it is the end, but because it happened*
+
+It is the end.
+
+...Actually not really, we have provided you some bonus features to do to enhance your game !
+
+Enjoy !
 
 ## Bonus
 
