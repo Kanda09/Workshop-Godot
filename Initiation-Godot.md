@@ -162,9 +162,8 @@ Todo List :
 
 ***_TIPS_***
 
-*You can see what is a Child Scene in Godot.*
-
-*Godot is simple! A child undergoes the same physics changes as his parents*
+- *You can see what is a Child Scene in Godot.*
+- *Godot is simple! A child undergoes the same physics changes as his parents*
 
 I think you see your player fall...
 Maybe we need a floor.
@@ -182,9 +181,8 @@ You can use 2 methods (or a mix):
 
 ***_TIPS_***
 
-*What's is StaticBody2D ? Did you need collision again ?*
-
-*What's is TileMap ? Don't you forget collision ?*
+- *What's is StaticBody2D ? Did you need collision again ?*
+- *What's is TileMap ? Don't you forget collision ?*
 
 ## Enemies
 

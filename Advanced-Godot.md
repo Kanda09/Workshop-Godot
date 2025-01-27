@@ -3,21 +3,7 @@
 ## What is Godot
 
 Godot is a free and open source game engine to develop and create 2D and 3D games, that can be played in linux, windows and even in web !
-
-## Install Godot
-
-In order to install Godot follow this link: https://godotengine.org/download/linux/ (for Linux) and https://godotengine.org/download/windows/ (for Windows).
-
-Install the version of godot corresponding to your compute
-
-If you have issue at install feel free to contact us !
-
-## Create a new project
-
-Create a new Godot project in the path you want.
-
-__NOTE__: You may need this: [Godot Documentation](https://docs.godotengine.org/en/stable/)
-
+But you already know ~( \*O*)~
 
 ## Menu
 
@@ -53,25 +39,31 @@ You can add any editable game value in settings.
 - *Try to go in and out your settings page. Your settings are okay ?*
 - *Do you know Slider? Bus volume?*
 
+## User Interface (UI)
+
+## Configuration File
+
+## Publish Game (Itch.io)
 
 ## Bonus
 
-![End Workshop](img/godot_endgame.png)
+Choose the way you want "Make better", "Going futher" or/and "Create you own Game" !!
 
-Hey, it is the end, did you like everything you've learned ? I hope so !
+### Make better
 
-But don't worry, there is still a loooooot to do !
+- publish in web (Itch.io)
+- create a TileSet
+- Add animation and movement
+- Upgrade Ennemies (projectiles, spawn, behavior)
 
-Video games are fun and so, enjoy yourself creating everything you ever wanted, these are examples of what you could do:
+### Going futher
 
-* Custom End of game / create a full level
-* New enemies (Failing enemies, Static enemies, etc)
-* Projectiles
-* Using TileSets for background
+- Scord Board
+- Dialogue with png
+- Choose Skin
+- Particule and light
 
-All your dreams can become true !
-
-*If you finish the workshop! Come to us, We have lots of ideas !*
+### Create your own Game !!
 
 ## Contributors
 
