@@ -146,13 +146,14 @@ Isn't it better now ?
 
 ## Create a Level Map
 
-### Scene MainGame
-Okay now we want a real game ! (and test you player movement)
+Okay now we want a real game ! (and test your player movement)
 
-Let's start why the creation of the "MainGame" scene!
+### Scene MainGame
+
+Let's start whith the creation of the "MainGame" scene!
 I'ts where you collect all the scenes (player, plateform, ennemies)
 
-You have to do :
+Todo List :
 - Creation of the "MainGame" scene
 - Add "Player" scene in the "MainGame" scene
 - Add a Camera that follow the player
@@ -172,7 +173,9 @@ Maybe we need a floor.
 
 We need a floor where the player can walk.
 Try to create a simple platform.
-You can use 2 methods (or a mix)
+You can use 2 methods (or a mix):
+- Create own made platform
+- Create a TileMap
 
 ![Platform Screen](img/godot-platform.png)
 ![Platform TileMap](img/godot-tile-map.png)
@@ -181,7 +184,7 @@ You can use 2 methods (or a mix)
 
 *What's is StaticBody2D ? Did you need collision again ?*
 
-*What's is TileMap ?*
+*What's is TileMap ? Don't you forget collision ?*
 
 ## Enemies
 
@@ -225,18 +228,22 @@ Isn't it ?
 
 ## Bonus
 
+![End Workshop](img/godot_endgame.png)
+
 Hey, it is the end, did you like everything you've learned ? I hope so !
 
 But don't worry, there is still a loooooot to do !
 
 Video games are fun and so, enjoy yourself creating everything you ever wanted, these are examples of what you could do:
 
-* Custom End of game
+* Custom End of game / create a full level
 * New enemies (Failing enemies, Static enemies, etc)
 * Projectiles
 * Using TileSets for background
 
 All your dreams can become true !
+
+*If you finish the workshop! Come to us, We have lots of ideas !*
 
 ## Contributors
 
