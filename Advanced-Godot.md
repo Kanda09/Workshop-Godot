@@ -1,4 +1,6 @@
-# Workshop - Godot Avancé
+# Workshop - Godot Advanced
+
+The purpose of this workshop is to show you how to enhance your game, with multiple features like a menu or a settings, and with coding good practices like configuration files.
 
 ## What is Godot
 
@@ -42,6 +44,29 @@ You can add any editable game value in settings.
 ## User Interface (UI)
 
 ## Configuration File
+
+Let's go back to our wonderful game !
+
+It's been a long... (or not ?)
+
+You thought we had finished with it **BUT** let's talk about a way to make it more generic game !
+
+Actually when you want to create a new enemy you have to instanciate a new child scene for each enemy or even entity you want to had. That's kind of messy !
+
+>*Imagine coding a pokemon like while doing like... the **headache**...*
+
+**HOWEVER** Godot gives us a wonderful way to be more generic, by its configuration files !
+
+Your task, if you accept it is to take any of the node that you have to instanciate manually and create a script that read a configuration file and initialize them for you !
+
+> **HINT**: Reading the documentation *might* be a good idea :D
+
+> **HINT**: Look at Packed Scene is :D
+
+At the end you should be able to do something like this:
+
+![Everybody has enemies](./img/everybody-has-enemies.png)
+
 
 ## Publish Game (Itch.io)
 
