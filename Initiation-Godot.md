@@ -2,27 +2,27 @@
 
 ## What is Godot
 
-Godot is a free and open source game engine to develop and create 2D and 3D games, that can be played in linux, windows and even in web !
+Godot is a free and open source game engine to develop and create 2D and 3D games, that can be played on linux, windows and even in web !
 
 ## Install Godot
 
 In order to install Godot follow this link: https://godotengine.org/download/linux/ (for Linux) and https://godotengine.org/download/windows/ (for Windows).
 
-Install the version of godot corresponding to your compute
+Install the version of godot corresponding to your computer
 
-If you have issue at install feel free to contact us !
+If you have an issue while installing feel free to contact us !
 
 ## Create a new project
 
-Create a new Godot project in the path you want.
+Create a new Godot project at the path you want.
 
 __NOTE__: You may need this: [Godot Documentation](https://docs.godotengine.org/en/stable/)
 
 ## Create a Player !
 
-We will here try to create few nodes representing the player, the player's root node, the collision node or the animation sprite node.
+We will here try to create a few nodes representing the player, the player's root node, the collision node or the animation sprite node.
 
-Then we will assign to this new player we had scripts to make him move and have a beautiful life :3.
+Then we will assign to this new player scripts to make him move and have a beautiful life :3.
 
 ### Godot is pretty :blush:
 
@@ -32,14 +32,14 @@ Then we will assign to this new player we had scripts to make him move and have 
 
 Oh...
 
-You're not conviced ?
+You're not convinced  ?
 Let's see what godot is capable of !
 
 ### Node and Scene
 
 Godot Game Engine works with 2 main components **scenes** and **nodes**.
 
-* A **node** is a "*block*" containing informations about the game logic, the rendering or the User Interface (UI) display.
+* A **node** is a "*block*" containing informations about the game logic, the rendering or the User Interface (UI).
 **Nodes** are organised as a tree, you have a main node which has childs nodes and thoses childs nodes have childs too and so on.
 
 * A **scene** is a regroupment of node that are organised as a tree, they represents specific logics in the game, like a `Player` or an `Enemy`.
@@ -48,7 +48,7 @@ Understanding this game engine architecture is the key to the development of ama
 
 ### Create Player scene
 
-We will create our first scene there, when you save a scene name it `player.tscn` !
+We will create our first scene now, when you save a scene name it `player.tscn` !
 
 Also, as we said before we need a few nodes for the player to handle 2D physics or collisions.
 
@@ -56,29 +56,29 @@ Also, as we said before we need a few nodes for the player to handle 2D physics 
 
 First, create a new player node for the player, to do so we suggest you to take a look at `CharacterBody2D`, it has everything you want :3.
 
-Name this node, `Player` (It will be simpler to handle it).
+Name this node, `Player` (It will be easier to handle it).
 
 The node `Player` is named *root node*, every node that you want for the player **must** be a child/sub-child of this node
 
-Create a child node to the node `Player` and choose a collision node (we let you figure it out which one :D), and choose a Rectangle Shape for this node.
+Create a child node to the node `Player` and choose a collision node (we will let you figure out which one :D), and choose a Rectangle Shape for this node.
 
 Now let's take a look at the 2D view of godot:
 
 ![](img/godot-rectangle-shape.png)
 
-Here you can manipulate and move you collision shape as you wish !
+Here you can manipulate and move your collision shape as you wish !
 
 #### Sprite Player
 
 Our player is really ugly when we think about it.
 
-Yeah, I know, what player you're asking ?
+Yeah, I know. "what player" you're asking ?
 
 You're right, a collision shape cannot represent how **Magnificient** our player can be !
 
-So let's try to change his look a little bit !
+So let's try to change its look a little bit !
 
-Add the to `Player` a `AnimatedSprite2D` node and select the spritesheet you want !
+Add to the `Player` an `AnimatedSprite2D` node and select the spritesheet you want !
 
 Yes, as we are really good people, we did not choose to steal other's work...
 

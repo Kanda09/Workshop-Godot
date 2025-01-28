@@ -43,6 +43,13 @@ You can add any editable game value in settings.
 
 ## User Interface (UI)
 
+Hey, can I see my lives, points or game progress?
+I think you need a nice UI!
+- As useal create a scene for ui in game.
+- Add showing progression
+- Configure a key to show or unshow UI
+
+
 ## Configuration File
 
 Let's go back to our wonderful game !
