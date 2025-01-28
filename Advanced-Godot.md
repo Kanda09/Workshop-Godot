@@ -46,8 +46,13 @@ You can add any editable game value in settings.
 Hey, can I see my lives, points or game progress?
 I think you need a nice UI!
 - As useal create a scene for ui in game.
-- Add showing progression
+- Add showing progression with text
 - Configure a key to show or unshow UI
+
+***_TIPS_***
+
+- *Do you know Canvas Layer? Label?*
+- *Can you change the text string in code ?*
 
 
 ## Configuration File
