@@ -72,7 +72,7 @@ Here you can manipulate and move your collision shape as you wish !
 
 Our player is really ugly when we think about it.
 
-Yeah, I know. "what player" you're asking ?
+Yeah, I know. "What player" you're asking ?
 
 You're right, a collision shape cannot represent how **Magnificient** our player can be !
 
@@ -90,11 +90,11 @@ We still suggest you a really good spritesheet: [pixel-adventure-1](https://pixe
 
 #### Handle enemy collisions
 
-*Hey, but didn't we already added a collision node ?*
+*Hey, but didn't we already add a collision node ?*
 
-Yeah, you're right, but we only handled the physical effect of a collision without taking account of the object we collide with or the side effect we would have wanted !
+Yeah, you're right, but we only handled the physical effect of a collision without taking into account the object we collide with or the side effect we would have wanted !
 
->! If you did not understand my last sentence take a look at the difference between `CharacterBody2D` and `Area2D`.
+>! If you did not understand my last sentence take a look at the differences between `CharacterBody2D` and `Area2D`.
 
 ### Player Script
 
@@ -102,7 +102,7 @@ Now let's do some coding, we have to attach a script to the `Player` node to be 
 
 #### Sprite Movements
 
-It will be probable that the Godot UI already gives you the `_physics_process` function which permits to implement the character physics.
+It is probable that the Godot UI already gives you the `_physics_process` function which permits to implement the character physics.
 
 However, let's try to go a little bit further in the exercice !
 
@@ -112,7 +112,7 @@ However, let's try to go a little bit further in the exercice !
 
 #### Sprite Animation
 
-In a script there is a function that is called one time at the begining, when the scene is load, it is: `_ready` and there is also a function that is called each time you want the game updates and it is `_process`.
+In a script there is a function that is called one time at the begining, when the scene is loaded, it is: `_ready` and there is also a function that is called each time you want the game to update and it is `_process`.
 
 Inside this function, call a function named `add_animation` (that you must create), that will update the animation state based on the velocity, the position, everything you want.
 
@@ -132,7 +132,7 @@ Does your repository look like this ?:
 
 ![Bad File architecture](img/godot-file-bad-architecture.png)
 
-If so we're going to change it, imagine you want to add 10 scenes, you would put it all these files in specific directories.
+If so we're going to change it, imagine you want to add 10 scenes, you would put all these files in specific directories.
 
 * All scenes should be in a `scenes` directory
 * All scripts should be in a `scripts` directory
@@ -146,17 +146,17 @@ Isn't it better now ?
 
 ## Create a Level Map
 
-Okay now we want a real game ! (and test your player movement)
+Okay, now we want a real game ! (and test your player movement)
 
 ### Scene MainGame
 
 Let's start whith the creation of the "MainGame" scene!
-I'ts where you collect all the scenes (player, plateform, ennemies)
+It's where you collect all the scenes (player, plateform, ennemies)
 
 Todo List :
 - Creation of the "MainGame" scene
 - Add "Player" scene in the "MainGame" scene
-- Add a Camera that follow the player
+- Add a Camera that follows the player
 - Make the "MainGame" as the main scene
 - Try to play
 
@@ -173,7 +173,7 @@ Maybe we need a floor.
 We need a floor where the player can walk.
 Try to create a simple platform.
 You can use 2 methods (or a mix):
-- Create own made platform
+- Create your own platform
 - Create a TileMap
 
 ![Platform Screen](img/godot-platform.png)
@@ -181,8 +181,8 @@ You can use 2 methods (or a mix):
 
 ***_TIPS_***
 
-- *What's is StaticBody2D ? Did you need collision again ?*
-- *What's is TileMap ? Don't you forget collision ?*
+- *What is a StaticBody2D ? Did you need collision again ?*
+- *What is a TileMap ? Don't you forget collision ?*
 
 ## Enemies
 
@@ -206,7 +206,7 @@ Let's talk about signals.
 
 In Godot signals are way to informs/execute specific nodes/scripts when an event occured. For example, the player got hit by a bullet, **BOOOM** Signal.
 
-And here when a collision is occuring we want a script to be triggered, that will handle the consequences of it.
+And here when a collision is occuring we want a script to be triggered, which will handle the consequences of it.
 
 What you need to do is:
 
@@ -218,7 +218,7 @@ __NOTE__: Careful you can implement a signal handler in the node that emits the 
 
 ### Ending the game
 
-Now implement the fact that if a collision appears, the scene reload completely itself.
+Now implement the fact that if a collision appears, the scene reloads itself completely.
 
 Don't worry it is not that hard !
 
